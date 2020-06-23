@@ -57,7 +57,7 @@ body, html {
 }
 
 p {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .navigation {
@@ -82,7 +82,7 @@ table h4 {
   margin: 0 auto;
 }
 .block tr, .block td {
-  padding: 25px;
+  padding: 30px;
 }
 .block td {
   vertical-align: top;
