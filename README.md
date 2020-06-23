@@ -13,5 +13,5 @@ About me --> A page containing a short paragraph about me, a summary of my
              programming skills and some contact information.
 
 Each page includes a navigation bar at the top which allows users to toggle
-between the pages. Flexbox and one media query make the site responsive to
+between the pages. Flexbox and a small screen media query make the site responsive to
 size changes.
