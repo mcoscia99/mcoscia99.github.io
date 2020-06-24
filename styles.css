@@ -6,22 +6,21 @@ body, html {
 }
 
 @media (max-width: 600px) {
-  .block li {
-    display: block;
-  }
-
   .navigation {
     width: 80%;
   }
   .navigation li {
-    text-align: center;
     display: block;
+    text-align: center;
     border-bottom: 2px dotted white;
     padding: 10px;
   }
 
-  .container2 h1 {
+  .container2 h1, .container2 h4 {
     text-align: center;
+  }
+  .container2 li {
+    display: block;
   }
 }
 .container {
@@ -38,8 +37,11 @@ body, html {
   justify-content: center;
   padding: 25px;
 }
-.container2 h1 {
-  min-width: 400px;
+.container2 h3, .container2 h4 {
+  min-width: 300px;
+}
+.container2 ul {
+  width: 50%;
 }
 .container2 img {
   padding-bottom: 20px;
@@ -78,17 +80,6 @@ table h4 {
   min-width: 275px;
 }
 
-.block {
-  margin: 0 auto;
-  max-width: none;
-}
-.block tr, .block td {
-  padding: 30px;
-}
-.block td {
-  vertical-align: top;
-}
-
 .studentinfo {
   font-size: 20px;
   padding: 10px;
@@ -101,8 +92,12 @@ table h4 {
   font-weight: bold;
 }
 
-h1, h3, h5, p {
+h1, h3, h4, h5, p {
   color: white;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 h5 {
