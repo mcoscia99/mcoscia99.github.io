@@ -69,6 +69,7 @@ p {
 table {
   font-size: 15px;
   border-collapse: collapse;
+  max-width: 650px;
 }
 table tr {
   color: white;
@@ -79,6 +80,7 @@ table h4 {
 
 .block {
   margin: 0 auto;
+  max-width: none;
 }
 .block tr, .block td {
   padding: 30px;
