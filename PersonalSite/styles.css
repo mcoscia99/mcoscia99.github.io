@@ -1,0 +1,185 @@
+body, html {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-image: linear-gradient(to right, #4b4655 0%, #594863 40%);
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    width: 80%;
+  }
+  .navigation li {
+    display: block;
+    text-align: center;
+    border-bottom: 2px dotted white;
+    padding: 10px;
+  }
+
+  .container2 h1, .container2 h4 {
+    text-align: center;
+  }
+  .container2 li {
+    display: block;
+  }
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+.container2 h3, .container2 h4 {
+  min-width: 300px;
+}
+.container2 ul {
+  width: 50%;
+}
+.container2 img {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+#home {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+#home p {
+  margin: 20px;
+  min-width: 300px;
+}
+
+p {
+  max-width: 500px;
+}
+
+.navigation {
+  float: right;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 25px;
+}
+
+table {
+  font-size: 15px;
+  border-collapse: collapse;
+  max-width: 650px;
+}
+table tr {
+  color: white;
+}
+table h4 {
+  min-width: 275px;
+}
+
+.studentinfo {
+  font-size: 20px;
+  padding: 10px;
+}
+.studentinfo td {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.studentinfo .head {
+  font-weight: bold;
+}
+
+h1, h3, h4, h5, p {
+  color: white;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+h5 {
+  font-weight: lighter;
+}
+
+#heading1 {
+  padding: 20px;
+  margin-right: 40px;
+  border-right: 3px solid white;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  padding-right: 20px;
+}
+
+#links a {
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+}
+#links a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+a {
+  font-size: 1.17em;
+  font-weight: bold;
+  color: white;
+  opacity: 0.6;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+#current-page {
+  pointer-events: none;
+  opacity: 1;
+  border-bottom: 3px solid white;
+}
+
+.complete {
+  color: #5aff15;
+}
+
+#projects {
+  text-align: left;
+}
+#projects img {
+  padding: 20px;
+}
+#projects a {
+  max-width: 600px;
+  opacity: 0.8;
+}
+#projects p {
+  font-weight: lighter;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+#footer {
+  text-align: center;
+}
+#footer p {
+  opacity: 0.6;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=styles.css.map */
