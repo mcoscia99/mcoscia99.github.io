@@ -6,21 +6,22 @@ body, html {
 }
 
 @media (max-width: 600px) {
+  .block li {
+    display: block;
+  }
+
   .navigation {
     width: 80%;
   }
   .navigation li {
-    display: block;
     text-align: center;
+    display: block;
     border-bottom: 2px dotted white;
     padding: 10px;
   }
 
-  .container2 h1, .container2 h4 {
+  .container2 h1 {
     text-align: center;
-  }
-  .container2 li {
-    display: block;
   }
 }
 .container {
@@ -37,11 +38,8 @@ body, html {
   justify-content: center;
   padding: 25px;
 }
-.container2 h3, .container2 h4 {
-  min-width: 300px;
-}
-.container2 ul {
-  width: 50%;
+.container2 h1 {
+  min-width: 400px;
 }
 .container2 img {
   padding-bottom: 20px;
@@ -49,6 +47,7 @@ body, html {
 }
 
 #home {
+  text-align: left;
   padding-top: 110px;
   padding-bottom: 110px;
 }
@@ -58,7 +57,7 @@ body, html {
 }
 
 p {
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .navigation {
@@ -71,13 +70,22 @@ p {
 table {
   font-size: 15px;
   border-collapse: collapse;
-  max-width: 650px;
 }
 table tr {
   color: white;
 }
 table h4 {
   min-width: 275px;
+}
+
+.block {
+  margin: 0 auto;
+}
+.block tr, .block td {
+  padding: 25px;
+}
+.block td {
+  vertical-align: top;
 }
 
 .studentinfo {
@@ -92,12 +100,8 @@ table h4 {
   font-weight: bold;
 }
 
-h1, h3, h4, h5, p {
+h1, h3, h5, p {
   color: white;
-}
-
-h4 {
-  font-weight: bold;
 }
 
 h5 {
@@ -108,6 +112,13 @@ h5 {
   padding: 20px;
   margin-right: 40px;
   border-right: 3px solid white;
+}
+
+#footer {
+  text-align: center;
+}
+#footer p {
+  padding-top: 30px;
 }
 
 ul {
@@ -166,20 +177,15 @@ a:hover {
 }
 #projects a {
   max-width: 600px;
-  opacity: 0.8;
 }
 #projects p {
   font-weight: lighter;
   font-size: 15px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
-#footer {
-  text-align: center;
-}
 #footer p {
   opacity: 0.6;
-  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
