@@ -5,7 +5,7 @@ Matthew Coscia
 My first website is a basic portfolio for myself built using HTML, CSS and SCSS.
 I have four pages; "Home," "Projects," "Courses" and "About me."
 
-Home --> A simple home page
+Home --> A simple home page.
 Projects --> A page containing images and stylized links to github.
 Courses --> A page highlighting my coursework through a series of tables.
 About me --> A page containing a short blurb about me, a summary of my
